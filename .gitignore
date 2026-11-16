@@ -1,0 +1,32 @@
+# Environment variables & secrets (CRITICAL)
+.env
+.env.*
+!.env.example
+
+# MediaMTX binaries (large platform-specific executables)
+mediamtx
+mediamtx.exe
+mediamtx.zip
+mediamtx_*.tar.gz
+auto.crt
+auto.key
+
+# Python bytecode & cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+
+# Logs & temp media test captures
+*.log
+*.ts
+*.mp4
+*.m3u8
+
+# Editor directories
+.vscode/
+.idea/
